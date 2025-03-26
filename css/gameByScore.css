@@ -1,0 +1,374 @@
+body {
+    background-image: url("../images/reka3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: 'Varela Round', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+
+#logoimg {
+    width: 5vw;
+    height: 5vh;
+}
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.subimg {
+    width: 10vw;
+    height: 15vh;
+    border-radius: 10vh;
+    margin-left: 5vh;
+    margin-top: 6vh;
+}
+
+
+.opo {
+    transform: rotate(270deg);
+}
+
+.boar-container {
+   
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    width: 70vh;
+    height: 70vh;
+    margin: 0 auto;
+    margin-top: -6%;
+}
+
+.side {
+    border: none !important;
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+
+
+}
+
+.line {
+    border: none !important;
+    margin-top: 1.5vh;
+    font-size: 2vh;
+    color: white;
+
+
+}
+
+.square {
+    border: 0.4vh solid #6e6c71;
+  
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+.notsquare{
+    background-color: transparent;
+      background-color: rgba(0, 0, 0, 0);
+  }
+
+
+.s {
+    background-color: rgba(0, 0, 0, 0.151);
+    border: 0.4vh solid #6e6c71;
+    width: 15vh;
+    height: 15vh;
+
+}
+
+.sub {
+    /* background-color: brown; */
+
+}
+
+.check {
+    /* background-color: rgba(52, 165, 42, 0.877); */
+}
+
+.neigh {
+
+    background-image: "❌";
+}
+
+.complete {
+    background-color: rgba(52, 165, 42, 0.877);
+
+}
+
+#timer {
+    color: #f1f1f100;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #58729c00;
+    padding: 10px;
+    border: 1px solid #cccccc00;
+    border-radius: 10vh;
+    margin-top: 10vh;
+}
+
+#name1 {
+    color: rgba(240, 248, 255, 0);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f1f1f1;
+    padding: 10px;
+
+    border: 1px solid #cccccc00;
+    border-radius: 10vh;
+    background-color: rgba(4, 43, 75, 0);
+}
+
+#subRest1 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border: 1px solid #cccccc00;
+    border-radius: 10vh;
+    background-color: rgba(4, 43, 75, 0.899);
+}
+
+#score {
+    color: #f1f1f100;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #cccccc00;
+    border-radius: 10vh;
+    margin-top: 11vh;
+    background-color: rgba(19, 96, 87, 0);
+}
+.over {
+    background-color: transparent;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-family: sans-serif;
+    text-align: center;
+    display: none;
+}
+
+.end {
+    display: flex;
+
+    background-color: rgba(1, 9, 9, 0.863);
+    width: 20vw;
+    height: 70vh;
+    padding: 30vh 40vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 30%;
+    top: 11%;
+    border-radius: 12vh;
+    display: none;
+    border: 0.5vh solid black;
+    animation: popup-animation 0.5s ease-out forwards;
+}
+
+@keyframes popup-animation {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#win p {
+    font-size: 5vh;
+    display: flex;
+    color: black;
+    color: rgba(209, 17, 14, 0.598);
+    box-sizing: 30%;
+}
+
+#newGame button{
+    border-radius: 10%;
+}
+#newGame {
+    display: flex;
+    color: black;
+    margin-left: -14vw;
+    width: 15vw;
+    height: 7vh;
+    padding: 4vh;
+}
+a:link {
+    text-decoration: none;
+}
+.end p {
+    display: flex;
+width: 29vh;
+    color: rgba(209, 17, 14, 0.598);
+    font-size: 5vh;
+    text-align: center;
+    margin-top: -23vh;
+    margin-left: -15vh;
+}
+#back_to_home button{
+    border-radius: 12%;
+}
+#back_to_home {
+
+    padding: 4vh;
+    margin-top: -8vh;
+    margin-left: 4vw;
+    width: 10vw;
+    height: 3vh;
+    color: black;
+}
+.end button {
+    display: flex;
+
+    text-align: center;
+    font-size: 5vh;
+    border-radius: 10%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(209, 17, 14, 0.598);
+    color: rgba(240, 248, 255, 0.662);
+    line-height: 10px;
+}
+
+.re {
+    width: 40vh;
+    height: 120vh;
+    background-color: #01010a00;
+    border-radius: 10vh;
+    border-color: black;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+#reo {
+    z-index: -1;
+    border-radius: 4vh;
+    margin-top: 0vh;
+    position: absolute;
+    width: 20vw;
+    height: 85vh;
+    overflow: hidden;
+    margin-top: 4vh;
+}
+
+#time {
+    border-radius: 1vh;
+    background-color: rgb(218, 71, 18);
+    margin-left: 2vw;
+    margin-top: 6vh;
+    font-size: 1.6em;
+    font-size: 3vh;
+    height: 6vh;
+    padding: 0.5vh;
+
+}
+
+#scor {
+    border-radius: 1vh;
+    background-color: rgb(218, 218, 30);
+    margin-left: 2vw;
+    margin-top: 4vh;
+    font-size: 3vh;
+    height: 6vh;
+    padding: 0.5vh;
+}
+
+#name2 {
+    border-radius: 1vh;
+    background-color: rgb(177, 7, 7);
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-size: 3vh;
+    height: 6vh;
+    padding: 0.5vh;
+
+}
+
+#subm {
+    border-radius: 1vh;
+    background-color: rgb(24, 124, 24);
+    margin-top: 6vh;
+    margin-left: 2vw;
+    font-size: 1.6em;
+    font-size: 3vh;
+    height: 6vh;
+    padding: 0.5vh;
+}
+
+       #sub1 {
+        position: absolute;
+        width: 2vw;
+        height: 14vh;
+        animation: move-down2 12s linear infinite;
+        z-index: -1;
+      }
+      
+      @keyframes move-down2 {
+      100% {
+         right:40%;
+         top:99%;
+            } 
+      0%{
+         right: 40% ;
+         top:0%;
+      }
+      } 
+    
+      #sub2{
+        position: absolute;
+        width: 10vw;
+        height: 4vh;
+        animation: move-left2 18s linear infinite;
+        z-index: -1;
+      }
+      
+      @keyframes move-left2 {
+      100% {
+         right:99%;
+         top:40%;
+            } 
+      0%{
+         right: 0% ;
+         top:40%;
+      }
+      } 
+    
+      #sub3{
+        position: absolute;
+        width: 10vw;
+        height: 4vh;
+        animation: move-left3 27s linear infinite;
+        z-index: -1;
+      }
+      
+      @keyframes move-left3 {
+      100% {
+         right:0%;
+         top:80%;
+            } 
+      0%{
+         right: 99% ;
+         top:80%;
+    
+      }
+      } 
