@@ -47,8 +47,6 @@ Explosion animation & sound effects
 
 Win / Lose screens
 
-Leaderboard (Top 3 players) using LocalStorage
-
 Player name support
 
 Multiple submarine sizes and images
@@ -57,7 +55,7 @@ Multiple submarine sizes and images
 
 ## 🛠️ Technologies Used
 
-JavaScript (Vanilla JS)
+JavaScript 
 
 HTML
 
@@ -75,7 +73,7 @@ Timers & Events
 
 Clone the repository:
 
-git clone https://github.com/your-username/submarine-game.git
+git clone https://github.com/milkaBlumer/submarines.git
 
 
 Open the project folder.
