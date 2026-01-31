@@ -1,10 +1,12 @@
-🚢 Submarine Battle Game 
+# 🚢 Submarine Battle Game 
 
 A JavaScript-based Battleship game where players discover hidden submarines using logic, strategy, and speed.
 
 The game includes two play modes: Marathon Mode and Speed Mode.
 
-🎮 Game Modes
+---
+
+# 🎮 Game Modes
 🏃 Speed Mode (Time-Based)
 
 The player has 60 seconds to discover all submarines.
@@ -13,7 +15,9 @@ Goal: find all submarines as fast as possible.
 
 If time runs out before all submarines are discovered → Game Over.
 
-🏋️ Marathon Mode (Score-Based)
+---
+
+# 🏋️ Marathon Mode (Score-Based)
 
 The player starts with 400 points.
 
@@ -25,7 +29,9 @@ If the score goes below 0 → Game Over.
 
 Focuses on strategy and accuracy rather than speed.
 
-✨ Features
+---
+
+# ✨ Features
 
 10x10 interactive game board
 
@@ -47,7 +53,9 @@ Player name support
 
 Multiple submarine sizes and images
 
-🛠️ Technologies Used
+---
+
+# 🛠️ Technologies Used
 
 JavaScript (Vanilla JS)
 
@@ -61,7 +69,9 @@ Async/Await
 
 Timers & Events
 
-🚀 How to Run the Project
+---
+
+# 🚀 How to Run the Project
 
 Clone the repository:
 
@@ -79,7 +89,9 @@ homePage.html
 
 No installation required.
 
-🧠 Game Logic Overview
+---
+
+# 🧠 Game Logic Overview
 
 Submarines are placed randomly on the board.
 
@@ -95,7 +107,9 @@ When all submarines are discovered → Victory screen.
 
 When time runs out or score drops below 0 → Game Over.
 
-🏆 Leaderboard
+---
+
+# 🏆 Leaderboard
 
 The game saves the top 3 results using LocalStorage:
 
@@ -107,7 +121,9 @@ Level
 
 Game mode
 
-👩‍💻 Author
+---
+
+# 👩‍💻 Author
 
 Developed by Milka Blumer
 JavaScript game project for practicing DOM manipulation, game logic, and algorithms.
