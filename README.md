@@ -6,7 +6,7 @@ The game includes two play modes: Marathon Mode and Speed Mode.
 
 ---
 
-# 🎮 Game Modes
+## 🎮 Game Modes
 🏃 Speed Mode (Time-Based)
 
 The player has 60 seconds to discover all submarines.
@@ -17,7 +17,7 @@ If time runs out before all submarines are discovered → Game Over.
 
 ---
 
-# 🏋️ Marathon Mode (Score-Based)
+## 🏋️ Marathon Mode (Score-Based)
 
 The player starts with 400 points.
 
@@ -31,7 +31,7 @@ Focuses on strategy and accuracy rather than speed.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 10x10 interactive game board
 
@@ -55,7 +55,7 @@ Multiple submarine sizes and images
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 JavaScript (Vanilla JS)
 
@@ -71,7 +71,7 @@ Timers & Events
 
 ---
 
-# 🚀 How to Run the Project
+## 🚀 How to Run the Project
 
 Clone the repository:
 
@@ -91,7 +91,7 @@ No installation required.
 
 ---
 
-# 🧠 Game Logic Overview
+## 🧠 Game Logic Overview
 
 Submarines are placed randomly on the board.
 
@@ -109,7 +109,7 @@ When time runs out or score drops below 0 → Game Over.
 
 ---
 
-# 🏆 Leaderboard
+## 🏆 Leaderboard
 
 The game saves the top 3 results using LocalStorage:
 
@@ -123,7 +123,7 @@ Game mode
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 Developed by Milka Blumer
 JavaScript game project for practicing DOM manipulation, game logic, and algorithms.
